@@ -78,17 +78,6 @@ header {
     padding-left:gutter();
     padding-right:gutter();
 }
-.main-container {
-	margin-top: 10em;
-
-	@include breakpoint(30em) {
-		margin-top: 12em;
-	}
-	@include breakpoint(75em) {
-		// margin-top: ;
-	}
-
-}
 .title {
     text-align:center;
     margin: 0;
@@ -168,6 +157,20 @@ nav {
 	}
 }
 
+.main-container {
+	margin-top: 10em;
+
+	@include breakpoint(30em) {
+		margin-top: 12em;
+	}
+	@include breakpoint(75em) {
+		// margin-top: ;
+	}
+}
+section.main-body {
+	margin: 0 auto;
+	text-align: center;
+}
 .liquor-item {
 	// padding-top: 50%;
 	background-color: red;
@@ -220,4 +223,5 @@ nav {
 	// &:nth-child(4n) {
 	// 	@include span(3 of 12 last);
 	// }
+	// text-align: center;
 }

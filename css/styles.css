@@ -548,16 +548,6 @@ header {
   clear: both;
 }
 
-.main-container {
-  margin-top: 10em;
-}
-
-@media (min-width: 30em) {
-  .main-container {
-    margin-top: 12em;
-  }
-}
-
 .title {
   text-align: center;
   margin: 0;
@@ -646,6 +636,21 @@ nav ul li svg a:hover .cls-1 {
 
 nav ul li svg text {
   text-anchor: middle;
+}
+
+.main-container {
+  margin-top: 10em;
+}
+
+@media (min-width: 30em) {
+  .main-container {
+    margin-top: 12em;
+  }
+}
+
+section.main-body {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .liquor-item {
